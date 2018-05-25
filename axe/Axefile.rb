@@ -1,7 +1,7 @@
 AxeConfig.new do |s|
   s.name           = "NAME"
   s.workspace      = "Module.xcworkspace" 
-  s.scheme         = "Module"
+  s.scheme         = "NAME"
   s.version        = "0.0.1"
   # 声明文件
   s.header         = "Module/API.h"
