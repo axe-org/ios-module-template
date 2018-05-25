@@ -10,7 +10,6 @@
 		283D399B20B72FCD00C482DB /* API.h in Headers */ = {isa = PBXBuildFile; fileRef = 283D399A20B72FCD00C482DB /* API.h */; };
 		283D39D320B7495400C482DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 283D39D220B7495400C482DB /* AppDelegate.m */; };
 		283D39D620B7495400C482DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 283D39D520B7495400C482DB /* ViewController.m */; };
-		283D39D920B7495400C482DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283D39D720B7495400C482DB /* Main.storyboard */; };
 		283D39DB20B7495600C482DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 283D39DA20B7495600C482DB /* Assets.xcassets */; };
 		283D39DE20B7495600C482DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283D39DC20B7495600C482DB /* LaunchScreen.storyboard */; };
 		283D39E120B7495600C482DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 283D39E020B7495600C482DB /* main.m */; };
@@ -25,7 +24,6 @@
 		283D39D220B7495400C482DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		283D39D420B7495400C482DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		283D39D520B7495400C482DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		283D39D820B7495400C482DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		283D39DA20B7495600C482DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		283D39DD20B7495600C482DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		283D39DF20B7495600C482DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 				283D39D220B7495400C482DB /* AppDelegate.m */,
 				283D39D420B7495400C482DB /* ViewController.h */,
 				283D39D520B7495400C482DB /* ViewController.m */,
-				283D39D720B7495400C482DB /* Main.storyboard */,
 				283D39DA20B7495600C482DB /* Assets.xcassets */,
 				283D39DC20B7495600C482DB /* LaunchScreen.storyboard */,
 				283D39DF20B7495600C482DB /* Info.plist */,
@@ -208,7 +205,6 @@
 			files = (
 				283D39DE20B7495600C482DB /* LaunchScreen.storyboard in Resources */,
 				283D39DB20B7495600C482DB /* Assets.xcassets in Resources */,
-				283D39D920B7495400C482DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,14 +231,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		283D39D720B7495400C482DB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				283D39D820B7495400C482DB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		283D39DC20B7495600C482DB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
