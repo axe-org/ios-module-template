@@ -1,2 +1,3 @@
-# ios-module-template
-iOS module template, use axe_init_module to build a module quickly
+## 模块项目
+
+使用 `fastlane axe_init_module`来使用模块快速创建仓库。
