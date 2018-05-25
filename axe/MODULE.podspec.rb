@@ -21,7 +21,6 @@ Pod::Spec.new do |s|
     ss.vendored_frameworks    = "axe/NAME.framework"
   end
 
-  # 用户如此配置， 具体版本号与依赖设定，自动处理。
   AXE_DEPENDENCY
   
 end
